@@ -1,0 +1,29 @@
+.content {
+    max-width: 900px;
+    display: block;
+    margin: 0 auto;
+    padding: 0 20px; 
+}
+
+.telas {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+} .tela input, .tela label {
+    display: block;
+    margin: 6px auto;
+} 
+
+@media (max-width: 620px) {
+    section .aboutimg img {
+        width: 100%;      
+    } .telas {
+        display: flex;
+        flex-direction: column;
+    } .tela {
+        margin: 20px 0;
+    } .cards { 
+        grid-template-columns: 1fr;
+        margin-bottom: 20px;
+    }
+}

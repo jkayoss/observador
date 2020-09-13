@@ -1,0 +1,169 @@
+/* fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');   
+
+/* zerar elementos */
+body {
+    background-color: #F5F5F5;
+}
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    
+}
+
+/* Navegação - Topo */
+
+nav {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    
+}
+
+nav a {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    margin-left: 5px;
+    font-size: 17px;
+}
+
+.logo {
+    margin-bottom: -3px;
+}
+
+.logo img {
+    height: 40px;
+}
+
+nav ul li{
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/* about */
+
+section {
+    margin-top: 20px;
+    min-height: calc(100vh - 220px);
+    vertical-align: middle;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+section .about {
+    text-align: center;
+}
+
+section .about h1 {
+    /*display: inline-block;*/
+    border-bottom: 1px solid #ddd;
+    font-size: 42px;
+    font-weight: bolder;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+}
+
+section .about p {
+    display: block;
+    padding: 5px 0;
+    font-size: 18px;
+}
+
+section .about button {
+    margin: 20px 0;
+    padding: 14px;
+    border-radius: 9px;
+    border: 1px solid rgb(0,0,0,0.0);
+    background-color: rgb(26, 24, 168);
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    box-shadow: 2px 6px 9px rgb(0,0,0,0.5);
+}
+
+section .about button:hover {
+    background-color: rgb(49, 46, 189);
+    border: 1px solid rgb(26, 24, 168);
+    transition: ease-in-out 200ms;
+}
+
+section .aboutimg {
+    width: 100%;
+    margin-bottom: 10px;
+    
+} section .aboutimg img {
+    width: 70%;
+    display: block;
+    margin: 0 auto 0 auto;
+}
+
+footer {
+    min-height: 100px;
+    background-color: #ddd;
+    box-shadow: -2px -2px 8px rgb(0,0,0,0.2);
+    
+    
+} footer .content {
+    min-height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+} footer .content i {
+    margin: 8px 5px;
+    font-size: 20px;
+} footer .content a {
+    color: black;
+}
+
+
+.tela button {
+    margin: 20px 0;
+    padding: 8px;
+    border-radius: 9px;
+    border: 1px solid rgb(0,0,0,0.0);
+    background-color: rgb(26, 24, 168);
+    color: white;
+    font-size: 14px;
+    box-shadow: 2px 6px 9px rgb(0,0,0,0.5);
+}   .tela button:hover {
+    background-color: rgb(49, 46, 189);
+    border: 1px solid rgb(26, 24, 168);
+    transition: ease-in-out 200ms;
+} .tela input {
+    padding: 6px;
+    border-radius: 6px;
+    border: 1px solid #717171;
+} .tela form {
+    background-color: rgb(240,240,240);
+    margin-top: 10px;
+    padding: 30px 60px;
+    display: inline-block;
+    border-radius: 20px;
+    border: 0.5px solid rgb(0,0,0,0.1);
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+} .card {
+    min-height: 200px;
+    background-color: grey;
+
+} 
+
+.destaque {
+    background-color: black;
+    color: white;
+}
+
+.solicitacoes h1 {
+    margin-bottom: 10px;
+    font-size: 30px;
+}
